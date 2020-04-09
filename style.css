@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+body,html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    color: white;
+    background-color: #0e1a33;
+}
+/* .wrap-navbar {
+    height: 4px !important;
+    background-color: rgba(0, 188, 212, 0.9);
+} */
+
+.nav-header {
+    position: relative;
+}
+.navbar {
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+
+.navbar::before {
+    content: "";
+    border-top: 100px solid rgba(15, 27, 51, 0.18);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0;
+    z-index: -1;
+}
+
+.navbar::after {
+    content: "";
+    border-top: 90px solid rgba(15, 27, 51, 0.45);
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    -webkit-filter: drop-shadow(0px -14px 13px rgba(0, 188, 182, 0.8));
+    filter: drop-shadow(0px -14px 13px rgba(0, 188, 182, 0.8));
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    top: 0;
+    z-index: -1;
+}
+
+.navbar li a{
+    text-transform: uppercase !important;
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.navbar li a:hover{
+    color:#00bcd4 !important ;
+}
+
+.navbar li a .bi, .navbar li a .fas{
+    color: #00bcd4 !important;
+}
+
+.dropdown-menu {
+    background-color:#00bcd4 !important ;
+}
+
+.dropdown-menu a {
+    padding: 3px 20x !important;
+}
+
+.dropdown-menu a:hover {
+    color:  #00bcd4 !important;
+}
+
+.carousel-caption h2{
+    text-shadow: 5px 5px 20px #000;
+}
+
+.image-game-navs {
+    width: 265px;
+    height: 393px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bi-controller {
+    font-size: 75px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    opacity: 0;  
+    transition: all .2s;
+    transform: scale(0.5);
+}
+
+.image-game-navs:hover .bi{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.bi:hover {
+    color: rgba(0, 188, 182, 0.8);
+}
+
+.image-1{
+    background-image: url(http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2019/08/gostR.jpg);
+}
+
+.image-2{
+    background-image: url(http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/06/dark-souls-3-cover.jpg);
+}
+
+.image-3{
+    background-image: url(http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/06/batman-arkham-knight.jpg);
+}
+
+.image-4{
+    background-image: url(http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/06/uncharted-cover-691x1024.jpg);
+}
+.review-item-title {
+    font-size: 40px !important;
+    margin: 3px 0px;
+}
+.review-item-meta {
+    color: yellow;
+    font-size: 12px !important; 
+}
+
+.review-item-meta span {
+    margin: 0px 4px;
+}
+
+.title-container {
+    padding: 80px 0px 20px 0px;
+}
+
+.title-wrapper {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.banner-1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+    height: 175px;
+    background-image: url(http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2019/05/banner-gamez-4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.icon {
+    font-size: 25px;
+    text-align: right;
+}
+.media {
+    transition: all .3s;
+}
+.media-body {
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.media-body h1{
+    font-size: 3rem !important;
+    color: #00bcd4;
+}
+
+.media-body p{
+    font-size: 1.3rem !important;
+}
+
+.description-meta {
+    color: yellow;
+    font-size: 0.8rem;
+}
+.media-left {
+    margin: 0px !important;
+    padding-right: 5px !important;
+    transition: .3s;
+}
+.media:hover .media-left{
+    background-color: rgba(0, 188, 212, 0.9);
+}
+
+.media:hover{
+    background-color: rgba(0, 188, 212, 0.15);
+}
+
+.icon i{
+    padding: 4px;
+    background-color: #5dbcd3;
+}
+
+.icon i:hover {
+    background-color: white;
+    color:#5dbcd3 ;
+}
+
+.media-body p:hover {
+    color:#5dbcd3 ;
+}
+
+.media-nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    color: red;
+}
+
+.media-nav .bi {
+    font-size: 50px;
+}
+
+.nav-pills .nav-link.active {
+    background-color:transparent !important;
+}
