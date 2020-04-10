@@ -1,0 +1,53 @@
+/* .card {
+    background: linear-gradient(287deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+} */
+
+.footer {
+    height: 700px;
+    background-image: url(http://demo.themexpert.com/wordpress/gamez/wp-content/uploads/2016/08/gamez-footer-bg.jpg);
+}
+.footer-1 {
+    padding-top: 50px;
+}
+.menu-footer-2 {
+    list-style-type: none;
+    padding: 0px;
+}
+.menu h2 {
+    color: white;
+    font-size: 20px;
+}
+.menu-footer-2 li a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu-footer-2 li {
+    margin: 5px 0px;
+}
+
+.menu-1 {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu-1 li{
+    margin: 0px 10px;
+}
+
+.menu-1 li a{
+    color: white;
+}
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-3 {
+    padding-top: 100px;
+}
+
+.menu-footer-menu-2-container{
+    padding-top: 50px;
+}
